@@ -1,0 +1,12 @@
+.list-withLinks {
+  margin: 0 20px;
+}
+.description-withLinks {
+  text-align: center;
+  padding-bottom: 15px;
+}
+@media (min-width: 768px) {
+  .description-withLinks {
+    text-align: left;
+  }
+}
