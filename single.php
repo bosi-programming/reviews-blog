@@ -1,4 +1,4 @@
-<?
+<?php
 
 get_header();
 wp_enqueue_style('swiper');
@@ -28,23 +28,31 @@ wp_enqueue_script('highlight');
     <hr class="divider">
     </hr>
 
-    <p class="p post__finish-txt">Questions? Comments? Concerns? <a class="link post__link" href="<?= get_site_url() ?>/contact-us">Contact us</a> for more information. We’ll quickly get back to you with the information you need.</p>
-
     <div class="social-div">
       <div class="meta-div">
       </div>
       <div class="social-wrapper">
-        <p class="social__title">Share this:</p>
+        <p class="social__title">Quer compartilhar esse artigo?</p>
         <button class="nes-btn" data-show-count="false" onclick="window.open('https://twitter.com/intent/tweet?text=<?php the_title() ?>&url=<?= get_permalink() ?>','name','width=600,height=400')"><i class="fab fa-twitter social__twitter"></i></button>
       </div>
     </div>
 
     <hr class="divider">
     </hr>
+
+    <?php
+    // To use when I finaly add comments
+    if (comments_open()) {
+      comments_template();
+    }
+    ?>
+
+    <hr class="divider">
+    </hr>
   </article>
 
   <section class="container">
-    <h2>Related Posts</h2>
+    <h2>Postagens parecidas:</h2>
     <div class="carrousel">
       <i class="fas fa-chevron-left blog-posts__arrow blog-posts__arrow-left"></i>
       <div id="ajax-posts" class="row blog-posts__wrapper carrousel-wrapper">

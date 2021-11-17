@@ -165,6 +165,12 @@ wp_register_style(
 );
 
 // Pages styles
+wp_register_style(
+  'comments',
+  get_template_directory_uri() . '/comments.css',
+  array(),
+  '1.0',
+);
 
 wp_register_style(
   'single',
