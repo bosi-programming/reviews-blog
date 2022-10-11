@@ -116,6 +116,12 @@ h3 {
   }
 }
 
+@media (min-width: 769px) and (max-width: 1023px ) {
+  .tablet-hide {
+    display: none;
+  }
+}
+
 @media (min-width: 1024px) {
   .desktop-hide {
     display: none;

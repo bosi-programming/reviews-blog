@@ -41,7 +41,7 @@
     </p>
   </a>
   <div id="menu_toggle">
-    <input id="menu_toggle__input" type="checkbox" class="desktop-hide">
+    <input id="menu_toggle__input" type="checkbox" class="desktop-hide tablet-hide">
 
     <span></span>
     <span></span>
