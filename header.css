@@ -49,6 +49,10 @@
 }
 
 @media (min-width: 769px) {
+  .header-nav-list {
+    gap: 40px;
+    display: block;
+  }
   .header-nav {
     display: inline-flex;
     justify-content: flex-end;
