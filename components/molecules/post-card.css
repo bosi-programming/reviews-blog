@@ -1,5 +1,4 @@
 .post-card {
-  word-break: break-word;
   width: 300px;
   height: 500px;
   padding: 0px !important;
@@ -18,10 +17,11 @@
 
 .card-title {
   font-size: 1em;
-  padding: 24px;
+  padding: 16px 24px;
 }
 
 .card-text {
+  font-size: 18px;
   color: #212529;
   padding: 0 24px;
 }
