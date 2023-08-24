@@ -42,8 +42,8 @@
 
 .header-nav-item {
   list-style-type: none;
-  font-size: 14px;
-  font-family: "Press Start 2P", cursive;
+  font-size: 1.5em;
+  font-family: "Hylia", cursive;
   font-weight: 600;
   text-decoration: none;
 }
@@ -69,19 +69,19 @@
     margin-right: 80px;
   }
   .header-nav-item {
-    font-size: 16px;
+    font-size: 1.2em;
     font-weight: 900;
   }
 }
 @media (min-width: 1400px) {
   .header-nav-item {
-    font-size: 18px;
+    font-size: 1.3em;
   }
 }
 
 @media (min-width: 2000px) {
   .header-nav-item {
-    font-size: 22px;
+    font-size: 1.3em;
   }
   .logo {
     margin-left: 10vw;
@@ -96,6 +96,7 @@
 @media (max-width: 768px) {
   .header {
     height: 70px;
+    margin-bottom: 50px;
   }
 
   #menu_toggle {

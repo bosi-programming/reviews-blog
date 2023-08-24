@@ -3,6 +3,46 @@
   src: url("../webfonts/fa-brands-400.eot");
 }
 
+@font-face {
+  font-family: "Hylia";
+  src: url("../webfonts/HyliaSerif.ttf");
+}
+
+@font-face {
+  font-family: "Friz Quadrata Std Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Friz Quadrata Std Italic"),
+    url("../webfonts/friz-quadrata-std-italic-587033b2c95df.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Friz Quadrata Std Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Friz Quadrata Std Medium"),
+    url("../webfonts/friz-quadrata-std-medium-5870338ec7ef8.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Friz Quadrata Std Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Friz Quadrata Std Bold"),
+    url("../webfonts/friz-quadrata-std-bold-587034a220f9f.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Friz Quadrata Std Bold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Friz Quadrata Std Bold Italic"),
+    url("../webfonts/friz-quadrata-std-bold-italic-587033d6d4298.woff")
+      format("woff");
+}
+
 html,
 body {
   overflow-x: hidden;
@@ -12,7 +52,7 @@ html,
 body,
 kbd,
 samp {
-  font-family: "Press Start 2P", cursive;
+  font-family: "Hylia", cursive;
 }
 
 pre code {
@@ -52,9 +92,14 @@ ul {
 
 p,
 li {
-  font-family: Roboto, "Open Sans";
+  font-family: "Friz Quadrata Medium", "Open Sans";
   font-size: 22px;
   font-weight: 400;
+}
+
+.title {
+  font-family: "Hylia";
+  font-size: 38px;
 }
 
 h1,
@@ -68,17 +113,17 @@ h6 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 4em;
   margin: 80px auto 30px;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 3em;
   margin: 60px auto 15px;
 }
 
 h3 {
-  font-size: 1.2em;
+  font-size: 2em;
 }
 
 .container {
@@ -96,6 +141,14 @@ h3 {
   }
   main {
     padding-bottom: 45px;
+  }
+  h1 {
+    font-size: 3em;
+    margin: 40px auto 30px;
+  }
+  h2 {
+    font-size: 3em;
+    margin: 30px auto 15px;
   }
 }
 
@@ -116,7 +169,7 @@ h3 {
   }
 }
 
-@media (min-width: 769px) and (max-width: 1023px ) {
+@media (min-width: 769px) and (max-width: 1023px) {
   .tablet-hide {
     display: none;
   }
