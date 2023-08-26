@@ -32,23 +32,13 @@ wp_enqueue_script('highlight');
       <div class="meta-div">
       </div>
       <div class="social-wrapper">
-        <p class="social__title">Quer compartilhar esse artigo?</p>
+        <p class="social__title">Do you want to share this article?</p>
         <button class="nes-btn" data-show-count="false" onclick="window.open('https://twitter.com/intent/tweet?text=<?php the_title() ?>&url=<?= get_permalink() ?>','name','width=600,height=400')"><i class="fab fa-twitter social__twitter"></i></button>
         <button class="nes-btn" data-show-count="false" onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url=<?= get_permalink() ?>','name','width=600,height=400')"><i class="fab fa-linkedin-in social__linkedin"></i></button>
         <button class="nes-btn mobile-hide" data-show-count="false" onclick="window.open('https://web.whatsapp.com/send?text=<?= get_permalink() ?>', '_blank').focus()" data-action="share/whatsapp/share"><i class="fab fa-whatsapp social__whatsapp mobile-hide"></i></button>
         <a class="nes-btn desktop-hide" href="'https://web.whatsapp.com/send?text=<?= get_permalink() ?>" data-action="share/whatsapp/share"><i class="fab fa-whatsapp social__whatsapp mobile-hide mobile-hide"></i></a>
       </div>
     </div>
-
-    <hr class="divider">
-    </hr>
-
-    <?php
-    // To use when I finaly add comments
-    if (comments_open()) {
-      comments_template();
-    }
-    ?>
 
     <hr class="divider">
     </hr>
