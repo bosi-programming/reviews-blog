@@ -53,6 +53,7 @@ body,
 kbd,
 samp {
   font-family: "Hylia", cursive;
+  word-break: break-word;
 }
 
 pre code {
@@ -127,12 +128,12 @@ h3 {
 }
 
 .container {
-  max-width: 320px;
+  max-width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-aspect-ratio: 0.7/1) {
   .mobile-hide {
     display: none;
   }
@@ -152,12 +153,9 @@ h3 {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-aspect-ratio: 0.7/1) {
   main {
     padding-bottom: 80px;
-  }
-  .container {
-    max-width: 720px;
   }
   h1,
   h2,
@@ -167,6 +165,9 @@ h3 {
   h6 {
     text-align: left;
   }
+  .desktop-hide {
+    display: none;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1023px) {
@@ -175,27 +176,12 @@ h3 {
   }
 }
 
-@media (min-width: 1024px) {
-  .desktop-hide {
-    display: none;
-  }
-  .container {
-    max-width: 960px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-}
-
 .flex {
   display: flex;
   justify-content: space-between;
 }
 
-@media (max-width: 1024px) {
+@media (min-aspect-ratio: 5/4) {
   .flex {
     flex-wrap: wrap;
   }

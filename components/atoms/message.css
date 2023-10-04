@@ -7,7 +7,7 @@
   font-size: 20px;
   font-weight: 400;
 }
-@media (min-width: 768px) {
+@media (min-aspect-ratio: 0.7/1) {
   .message__title {
     font-size: 2em !important;
   }

@@ -37,7 +37,7 @@
   align-items: center;
 }
 
-@media (max-width: 768px) {
+@media (min-aspect-ratio: 0.7/1) {
   .swiper-slide {
     width: 260px;
   }
@@ -73,14 +73,14 @@
   margin-top: 40px;
 }
 
-@media (min-width: 768px) {
+@media (max-aspect-ratio: 0.7/1) {
   .carrousel-wrapper {
     padding: 60px 0;
     max-width: 640px;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-aspect-ratio: 0.8/1) {
   .social__title {
     margin-bottom: 40px;
   }
@@ -95,7 +95,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-aspect-ratio: 1/1) {
   .carrousel-wrapper {
     max-width: 1100px;
   }

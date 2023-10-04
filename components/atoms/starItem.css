@@ -19,7 +19,7 @@
     width: 480px;
   }
 }
-@media (max-width: 768px) {
+@media (max-aspect-ratio: 0.7/1) {
   .icon-star {
     width: 8px;
     height: 8px;

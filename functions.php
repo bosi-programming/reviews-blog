@@ -60,7 +60,7 @@ function cssGlobals()
     'global',
     get_template_directory_uri() . '/assets/css/global.css',
     array(),
-    '2.1',
+    '2.2',
   );
 
   wp_enqueue_style('global');
@@ -69,7 +69,7 @@ function cssGlobals()
     'header',
     get_template_directory_uri() . '/header.css',
     array(),
-    '1.1',
+    '1.2',
   );
 
   wp_enqueue_style('header');
@@ -78,7 +78,7 @@ function cssGlobals()
     'footer',
     get_template_directory_uri() . '/footer.css',
     array(),
-    '1.0',
+    '1.1',
   );
 
   wp_enqueue_style('footer');
@@ -123,7 +123,7 @@ wp_register_style(
   'message',
   get_template_directory_uri() . '/components/atoms/message.css',
   array(),
-  '1.0',
+  '1.1',
 );
 
 wp_register_style(
@@ -139,7 +139,7 @@ wp_register_style(
   'socialSection',
   get_template_directory_uri() . '/components/molecules/socialSection.css',
   array(),
-  '1.0',
+  '1.1',
 );
 
 
@@ -147,14 +147,14 @@ wp_register_style(
   'listWithLinks',
   get_template_directory_uri() . '/components/molecules/listWithLinks.css',
   array(),
-  '1.0',
+  '1.1',
 );
 
 wp_register_style(
   'starsList',
   get_template_directory_uri() . '/components/molecules/starsList.css',
   array(),
-  '1.0',
+  '1.1',
 );
 
 wp_register_style(
@@ -176,7 +176,7 @@ wp_register_style(
   'single',
   get_template_directory_uri() . '/single.css',
   array(),
-  '1.0',
+  '1.1',
 );
 
 wp_register_script(
@@ -203,7 +203,7 @@ wp_register_style(
   'category',
   get_template_directory_uri() . '/category.css',
   array(),
-  '1.0',
+  '1.1',
 );
 
 wp_register_script(

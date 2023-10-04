@@ -5,7 +5,7 @@
   text-align: center;
   padding-bottom: 15px;
 }
-@media (min-width: 768px) {
+@media (min-aspect-ratio: 0.7/1) {
   .description-withLinks {
     text-align: left;
   }

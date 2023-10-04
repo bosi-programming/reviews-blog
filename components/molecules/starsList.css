@@ -4,7 +4,7 @@
 .title-starsList {
   margin-top: 0;
 }
-@media (max-width: 768px) {
+@media (min-aspect-ratio: 0.7/1) {
   .list-starsList {
     width: 86vw;
     max-width: 320px;
