@@ -181,8 +181,17 @@ h3 {
   justify-content: space-between;
 }
 
+@media (min-aspect-ratio: 4/4) {
+  .container {
+    max-width: 70%;
+  }
+}
+
 @media (min-aspect-ratio: 5/4) {
   .flex {
     flex-wrap: wrap;
+  }
+  .container {
+    max-width: 60%;
   }
 }

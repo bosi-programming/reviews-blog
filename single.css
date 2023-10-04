@@ -41,6 +41,9 @@
   .swiper-slide {
     width: 260px;
   }
+  .wp-block-image figure {
+    margin: 80px auto !important;
+  }
 }
 
 .blog-posts__wrapper {

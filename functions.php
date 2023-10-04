@@ -60,7 +60,7 @@ function cssGlobals()
     'global',
     get_template_directory_uri() . '/assets/css/global.css',
     array(),
-    '2.2',
+    '2.3',
   );
 
   wp_enqueue_style('global');
@@ -176,7 +176,7 @@ wp_register_style(
   'single',
   get_template_directory_uri() . '/single.css',
   array(),
-  '1.1',
+  '1.2',
 );
 
 wp_register_script(
