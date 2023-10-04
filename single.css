@@ -13,6 +13,10 @@
   height: auto;
 }
 
+.wp-block-image figure {
+  margin: 40px auto !important;
+}
+
 .post__content .nes-container {
   margin: 30px auto;
 }
