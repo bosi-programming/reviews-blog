@@ -60,7 +60,7 @@ function cssGlobals()
     'global',
     get_template_directory_uri() . '/assets/css/global.css',
     array(),
-    '2.3',
+    '2.4',
   );
 
   wp_enqueue_style('global');

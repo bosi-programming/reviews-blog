@@ -151,6 +151,9 @@ h3 {
     font-size: 3em;
     margin: 30px auto 15px;
   }
+  .flex-wrap-mobile {
+    flex-wrap: wrap;
+  }
 }
 
 @media (min-aspect-ratio: 0.7/1) {

@@ -4,12 +4,14 @@
 .title-starsList {
   margin-top: 0;
 }
-@media (min-aspect-ratio: 0.7/1) {
+@media (max-aspect-ratio: 0.7/1) {
   .list-starsList {
     width: 86vw;
     max-width: 320px;
+    margin: auto;
   }
   .starList-wrapper {
     padding: 15px 0 30px;
+    width: 100%;
   }
 }
