@@ -161,7 +161,7 @@ wp_register_style(
   'post-card',
   get_template_directory_uri() . '/components/molecules/post-card.css',
   array(),
-  '1.0',
+  '1.1',
 );
 
 // Pages styles
